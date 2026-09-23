@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Msis.AdminApi/Msis.AdminApi.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Msis.AdminApi.Tests/Msis.AdminApi.Tests.csproj" />
+  </Folder>
+</Solution>
