@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Environment files and secrets (never commit)
+.env
+.env.*
+!.env.example
+*.local
+
+# Node and Vite
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# .NET
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+
+# Supabase local state
+supabase/.branches/
+supabase/.temp/
+
+# Editors (share recommended extensions and workspace settings only)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
